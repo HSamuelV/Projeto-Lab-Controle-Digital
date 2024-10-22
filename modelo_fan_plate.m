@@ -1,0 +1,15 @@
+Ra = 1; %Resistencia de armadura ohm [Ω]
+La = 1; %Indutancia de armadura henry [H]
+Ka = 1; %Ganho de armadura [N/(m2*Amp)]
+Jm = 1; %Momento de inercia do motor [kg*m2]
+Kw = 1; %Ganho velocidade motor 
+A1 = 1; %Atrito motor [N/m/s]
+Kap = 1; %Ganho torque plate [N*m2/(m/s)2]
+m = 13; %massa plate [kg]
+Jp = 1; %Momento de inercia plate [kg*m2]
+R = 1; %Raio plate [m]
+g = 9.8; %gravidade [m/s2]
+Fg = 1;%m*g; %Força da gravidade na plate [N]
+A2 = 1; %Atrito eixo plate [N/m/s]
+Pos_sat_upper = 100*pi/180; %Saturaçao upper
+Pos_sat_under = 0; %saturaçao under
